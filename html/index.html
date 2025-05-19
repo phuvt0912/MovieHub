@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="/css/header.css">
+   <link rel="stylesheet" href="/css/body.css">
+   <link rel="stylesheet" href="/css/footer.css">
+   <link rel="icon" href="/img/logo.png">
+    <title>Movie Hub</title>
+</head>
+<body>
+   <div id="container">
+        <div id="head">
+            <div class="header">
+                <a href="/html/index.html"><img  src="/img/logo.png"></a>
+            </div>
+            <div class="nav">
+                <div class="navbar">
+                    <li><a >Thể loại ▼</a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html?genre=Anime">Anime</a></li>
+                            <li><a href="index.html?genre=Sport">Sport</a></li>
+                            <li><a href="index.html?genre=Action">Action</a></li>
+                            <li><a href="index.html?genre=Shounen">Shounen</a></li>
+                            <li><a href="index.html?genre=Drama">Drama</a></li>
+                            <li><a href="index.html?genre=Psychological">Psychological</a></li>
+                            <li><a href="index.html?genre=Adventure">Adventure</a></li>
+                            <li><a href="index.html?genre=Comedy">Comedy</a></li>
+                            <li><a href="index.html?genre=Fantasy">Fantasy</a></li>
+                            <li><a href="index.html?genre=Supernatural">Supernatural</a></li>
+                            <li><a href="index.html?genre=Mystery">Mystery</a></li>
+                            <li><a href="index.html?genre=Sci-Fi">Sci-Fi</a></li>
+                            <li><a href="index.html?genre=Slice of Life">Slice of Life</a></li>
+                            <li><a href="index.html?genre=School">School</a></li>
+                            <li><a href="index.html?genre=Romance">Romance</a></li>
+                            <li><a href="index.html?genre=Magic">Magic</a></li>
+                            <li><a href="index.html?genre=Demons">Demons</a></li>
+                            <li><a href="index.html?genre=Super Power">Super Power</a></li>
+                            <li><a href="index.html?genre=Mecha">Mecha</a></li>
+                            <li><a href="index.html?genre=War">War</a></li>
+                            <li><a href="index.html?genre=Biography">Biography</a></li>
+                            <li><a href="index.html?genre=Horror">Horror</a></li>
+                            <li><a href="index.html?genre=Game">Game</a></li>
+                            <li><a href="index.html?genre=Isekai">Isekai</a></li>
+                            <li><a href="index.html?genre=Thriller">Thriller</a></li>
+                            <li><a href="index.html?genre=Martial Arts">Martial Arts</a></li>
+                            <li><a href="index.html?genre=Music">Music</a></li>
+                            <li><a href="index.html?genre=Seinen">Seinen</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="history" href="">Lịch sử</a></li>
+                </div>
+                <div class="search">
+                    <form action="index.html">
+                        <input id="search_value" name="keyword" type="text" placeholder="Nhập tên phim">
+                    </form>
+                </div>
+                <button id="log_btn" class="login-btn"><a href="login.html">Đăng nhập</a></button> <!--Xuất hiện khi chưa đăng nhập-->
+                <div class="user">
+                    <button id="user_icon" class="btn-account"><img src="/img/Usericon.png" alt=""></button><!--Xuất hiện khi đã đăng nhập (có thể làm icon user là dropdown)-->
+                        <ul id="user_submenu" class="sub-account">
+                            <li id="currentUser"></li>
+                            <button id="logout" class="btn-logout">Đăng xuất</button>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div id="body">
+            <div class="filter">
+                <div id="page_number"></div>
+                <div id="genre"></div>
+                <div id="keyword"></div>
+                <div id="history_filter"></div>
+            </div>
+            <div id="movie_container">
+            </div>
+        </div>
+        <div id="pagination_container">
+            <div class="pagination">
+                <a class="pag_btn" id="tofirst" href="">Đầu</a>
+                <a class="pag_btn" id="prev" href="">Trước</a>
+                <a class="pag_btn"id="next" href="">Tiếp</a>
+                <a class="pag_btn" id="tolast" href="">Cuối</a>
+                <input id="goto_page" min=1 type="number" name="page">
+                <a id="go_btn" href="">GO</a>
+             </div>
+        </div>
+        <div id="footer">
+            <div id="footer_container">
+                <div id="left_info">
+                    <div id="header">
+                        <h2><a href="aboutus.html">About Us</a></h2>
+                    </div>
+                        <p>We are a team of passionate developers dedicated to creating innovative solutions.</p>
+                        <p>Our mission is to deliver high-quality software that meets the needs of our users.</p>
+                        <p>&copy; 2025 Our Company</p>
+                        </div>
+                <div id="right_info">
+                    <div class="image"><img src="/img/Discord.png" alt=""></div>
+                    <div class="image"><img src="/img/FB.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="/js/index.js"></script>
+</body>
+</html>
