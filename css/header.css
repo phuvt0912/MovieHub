@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#container{
+    width: 1100px;
+    background-color: #242E37;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.banner{
+    width: 95%;
+    height: 100px;
+    margin: 10px auto;
+    background-color: black;
+    color: white
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#head{
+    width: 100%;
+    height: 100px;
+    background-color: #242E37;
+    display: flex;
+}
+/*header Logo*/
+.header{
+    width: 10%;
+    height: 100px;
+    margin: 5px 0 5px 10px;
+}
+.header img{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 100px;
+    height: 50px;
+}
+.header img:hover{
+   cursor: pointer;
+}
+
+/*header search*/
+.nav{
+    width: 1000px;
+    height: 100px;
+    margin: 5px 10px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav .search{
+    border-radius: 7px;
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    display: flex;
+}
+.search form{
+    width: 100%;
+    height: 100%;
+    background-color: #242E37;
+}
+
+.search form input{
+    width: 460px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FFC107, #f58505);
+}
+
+.search input::placeholder {
+    color: #242E37;
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: medium;
+}
+
+.search input:hover{
+    background: linear-gradient(90deg, #f58505, #FFC107);
+    border-color: #f58505;
+}
+
+.search input:active {
+    border-color: #FF9800;;  
+}
+
+/*header Navigation*/
+.nav .navbar{
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.nav .navbar li{
+    position: relative;
+    margin-left: 35px;
+}
+
+.nav .navbar li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.nav .navbar li a:hover{
+    color: orange;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+/*header nav submenu*/
+.nav .navbar li ul.sub-menu{
+    position: absolute;
+    background-color: #242e37e3; 
+    padding: 10px;
+    list-style: none;
+    width: 420px;
+    height: 150px; /* Đặt chiều cao cố định cho 3 hàng */ 
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); /* Chỉ hiển thị 3 hàng (Xóa này nếu muốn như cũ)*/
+    grid-auto-rows: 40px;
+    gap: 10px; 
+    text-align: center;
+    opacity: 0;  
+    visibility: hidden;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    overflow-y: auto; /* Hiển thị thanh kéo khi nội dung dài hơn (Xóa này nếu muốn như cũ)*/
+}
+.nav .navbar li ul.sub-menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%; 
+    white-space: nowrap; /* Không cho chữ xuống dòng */
+    margin-left: auto;
+}
+.nav .navbar li ul.sub-menu li a{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 17px;
+}
+
+.nav .navbar li:hover>ul.sub-menu{
+    display: grid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav .navbar li ul.sub-menu li a:hover{
+    color: orange;
+    transition: .3s ease;
+}
+
+.nav .navbar li ul.sub-menu li a{
+    margin-left: 25px;
+}
+
+/*Màu nền của scroll*/
+.nav .navbar li ul.sub-menu::-webkit-scrollbar{
+    background-color: #242E37;
+}
+
+/*Màu nút scroll*/
+.nav .navbar li ul.sub-menu::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f58505, #FFC107);
+}
+
+.nav .navbar li ul.sub-menu::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(90deg, #FFC107, #f58505);
+    transition: 0.5s ease-out;
+}
+#user_submenu {
+    visibility: hidden;
+}
+/*Nút đăng nhập*/
+.nav .login-btn{
+    background: linear-gradient(90deg, #FFC107, #f58505);
+    color: #242E37;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-right: auto;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none; 
+    align-items: center;
+    transition: .3s ease;
+    width: auto;
+    height: 45px;
+    white-space: nowrap;
+}
+
+.nav .login-btn:hover{
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+    transform: scale(0.99);
+}
+
+.nav .login-btn a{
+    text-decoration: none;
+    color: #242E37;
+    width: auto;
+    padding: 12px 9px ; 
+}
+
+/*Account*/
+.nav .user{
+    position: relative;
+    margin-left: auto; 
+    margin-right: 20px;
+}
+
+.nav .user img{
+    height: 50px;
+    width: 50px;
+    background-color: #f58505;
+    border-radius:25px;
+}
+
+.nav .user .btn-account{
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Bo tròn */
+    cursor: pointer;
+    overflow: hidden; /* Đảm bảo không bị thừa */
+    margin-left: 22px;
+}
+
+.nav .user ul.sub-account {
+    position: absolute;
+    background-color: #242e37e3; 
+    padding: 10px;
+    list-style: none;
+    min-width: 200px;
+    height: auto;  
+    border-radius: 5px;
+    color: #f58505;
+    text-decoration: none;
+    right: 0;
+    left: auto;
+    transform: translateX(0);
+    z-index: 10;
+    display: flex; 
+    flex-direction: column;
+}
+
+.nav .user ul.sub-account li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%; 
+    white-space: nowrap; /* Không cho chữ xuống dòng */
+    margin-left: auto;
+    font-weight: bold;
+    color: #f58505;
+}
+
+
+/*nút logout*/
+.nav .user ul.sub-account .btn-logout{
+    background: linear-gradient(90deg, #FFC107, #f58505);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav .user ul.sub-account .btn-logout a{
+    text-decoration: none;
+    color: #242E37;
+    font-size: 15px;
+    transition: 0.3s ease;
+    width: auto;
+    height: auto;
+}
+
+.nav .user ul.sub-account .btn-logout:hover{
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+    transform: scale(0.99);
+}
+

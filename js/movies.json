@@ -1,0 +1,1289 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Blue Lock",
+      "Image": "/img/bluelock.jpg",
+      "description": "Anime đá bóng",
+      "rating": "7.5",
+      "genre": ["Anime", "Sport", "Action", "Shounen", "Drama", "Psychological"],
+      "year": "2022",
+      "episodes": "12",
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "One Piece",
+      "Image": "/img/onepiece.jpg",
+      "description": "Anime hải tặc",
+      "rating": "8.5",
+      "genre": ["Anime", "Adventure", "Action", "Comedy", "Drama", "Shounen"],
+      "year": "1999",
+      "episodes": "1000+",
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "Attack on Titan",
+      "alt_title": "Người khổng lồ tiến công",
+      "Image": "/img/attackontitan.jpg",
+      "description": "Anime Titan",
+      "rating": "9.0",
+      "genre": ["Anime", "Action", "Drama", "Fantasy", "Shounen", "Mystery"],
+      "year": "2013",
+      "episodes": 75,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+
+    {
+      "id": 4,
+      "title": "Naruto",
+      "Image": "/img/naruto.jpg",
+      "description": "Anime Ninja",
+      "rating": "8.5",
+      "genre": ["Anime", "Adventure", "Action", "Comedy", "Drama", "Shounen"],
+      "year": "2002",
+      "episodes": 220,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+
+    {
+      "id": 5,
+      "title": "Demon Slayer",
+      "Image": "/img/demonslayer.jpg",
+      "description": "Anime Samurai",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Drama", "Fantasy", "Shounen", "Supernatural", "Demons"],
+      "year": "2019",
+      "episodes": 26,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+
+    {
+      "id": 6,
+      "title": "My Hero Academia",
+      "Image": "/img/myheroacademia.jpg",
+      "description": "Anime siêu anh hùng",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Comedy", "Drama", "Shounen", "Super Power"],
+      "year": "2016",
+      "episodes": 113,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+
+    },
+    {
+      "id": 7,
+      "title": "Tokyo Revengers",
+      "Image": "/img/tokyorevengers.jpg",
+      "description": "Anime hành động",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Drama", "Romance", "School", "Shounen"],
+      "year": "2021",
+      "episodes": 24,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Jujutsu Kaisen",
+      "Image": "/img/jujutsukaisen.jpg",
+      "description": "Anime phép thuật",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Demons", "Supernatural", "School", "Shounen"],
+      "year": "2020",
+      "episodes": 24,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Black Clover",
+      "Image": "/img/blackclover.jpg",
+      "description": "Anime phép thuật",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Comedy", "Magic", "Fantasy", "Shounen"],
+      "year": "2017",
+      "episodes": 170,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Dragon Ball",
+      "Image": "/img/dragonball.jpg",
+      "description": "Anime hành động",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Adventure", "Comedy", "Super Power", "Martial Arts"],
+      "year": "1986",
+      "episodes": 153,  
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Kaguya-sama: Love is War",
+      "Image": "/img/kaguyasama.jpg",
+      "description": "Cuộc chiến tình cảm giữa hai thiên tài",
+      "rating": "8.6",
+      "genre": ["Anime", "Comedy", "Romance", "School", "Psychological"],
+      "year": "2019",
+      "episodes": 37,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Grand Blue",
+      "Image": "/img/grandblue.jpg",
+      "description": "Hài hước về hội lặn và sinh viên đại học",
+      "rating": "8.4",
+      "genre": ["Anime", "Comedy", "Slice of Life", "Seinen"],
+      "year": "2018",
+      "episodes": 12,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Nichijou",
+      "Image": "/img/nichijou.jpg",
+      "description": "Những câu chuyện hài hước thường ngày",
+      "rating": "8.5",
+      "genre": ["Anime", "Comedy", "Slice of Life", "School"],
+      "year": "2011",
+      "episodes": 26,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Barakamon",
+      "Image": "/img/barakamon.jpg",
+      "description": "Câu chuyện nhẹ nhàng về một nhà thư pháp",
+      "rating": "8.4",
+      "genre": ["Anime", "Slice of Life", "Comedy"],
+      "year": "2014",
+      "episodes": 12,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "The Disastrous Life of Saiki K.",
+      "Image": "/img/saikik.jpg",
+      "description": "Cậu học sinh có siêu năng lực nhưng chỉ muốn sống bình thường",
+      "rating": "8.5",
+      "genre": ["Anime", "Comedy", "School", "Supernatural"],
+      "year": "2016",
+      "episodes": 120,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Steins:Gate",
+      "Image": "/img/steinsgate.jpg",
+      "description": "Câu chuyện về du hành thời gian và khoa học viễn tưởng",
+      "rating": "9.1",
+      "genre": ["Anime", "Sci-Fi", "Thriller", "Drama"],
+      "year": "2011",
+      "episodes": 24,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Re:Zero - Starting Life in Another World",
+      "Image": "/img/rezero.jpg",
+      "description": "Một chàng trai bị đưa đến thế giới khác và phải sống lại mỗi khi chết",
+      "rating": "8.5",
+      "genre": ["Anime", "Isekai", "Fantasy", "Drama", "Psychological"],
+      "year": "2016",
+      "episodes": 50,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Violet Evergarden",
+      "Image": "/img/violet.jpg",
+      "description": "Câu chuyện cảm động về một cựu quân nhân trở thành người viết thư",
+      "rating": "8.7",
+      "genre": ["Anime", "Drama", "Slice of Life", "Fantasy"],
+      "year": "2018",
+      "episodes": 13,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Made in Abyss",
+      "Image": "/img/madeinabyss.jpg",
+      "description": "Cuộc phiêu lưu xuống vực thẳm đầy bí ẩn và nguy hiểm",
+      "rating": "8.7",
+      "genre": ["Anime", "Adventure", "Fantasy", "Drama", "Mystery"],
+      "year": "2017",
+      "episodes": 13,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Your Lie in April",
+      "Image": "/img/yourlieinapril.jpg",
+      "description": "Câu chuyện tình yêu và âm nhạc đầy xúc động",
+      "rating": "8.6",
+      "genre": ["Anime", "Music", "Drama", "Romance", "School"],
+      "year": "2014",
+      "episodes": 22,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Erased",
+      "Image": "/img/erased.jpg",
+      "description": "Một chàng trai có khả năng quay ngược thời gian để giải quyết một vụ án",
+      "rating": "8.5",
+      "genre": ["Anime", "Mystery", "Supernatural", "Thriller", "Drama"],
+      "year": "2016",
+      "episodes": 12,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "Image": "/img/mushokutensei.jpg",
+      "description": "Một người đàn ông thất bại trong cuộc sống được tái sinh vào thế giới phép thuật",
+      "rating": "8.7",
+      "genre": ["Anime", "Isekai", "Fantasy", "Adventure", "Drama"],
+      "year": "2021",
+      "episodes": 23,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "The Rising of the Shield Hero",
+      "Image": "/img/shieldhero.jpg",
+      "description": "Một anh hùng bị phản bội và quyết tâm trả thù",
+      "rating": "8.0",
+      "genre": ["Anime", "Isekai", "Action", "Fantasy", "Adventure"],
+      "year": "2019",
+      "episodes": 25,
+      "country": "Japan",
+            "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Death Note",
+      "Image": "/img/deathnote.jpg",
+      "description": "Một học sinh trung học tìm thấy một cuốn sổ có thể giết người",
+      "rating": "9.0",
+      "genre": ["Anime", "Mystery", "Supernatural", "Thriller", "Psychological"],
+      "year": "2006",
+      "episodes": 37,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "Image": "/img/fullmetalalchemist.jpg",
+      "description": "Hai anh em tìm kiếm hòn đá triết gia để khôi phục cơ thể của họ",
+      "rating": "9.1",
+      "genre": ["Anime", "Action", "Adventure", "Drama", "Fantasy", "Shounen"],
+      "year": "2009",
+      "episodes": 64,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Sword Art Online",
+      "Image": "/img/swordartonline.jpg",
+      "description": "Những người chơi bị mắc kẹt trong một trò chơi thực tế ảo",
+      "rating": "7.6",
+      "genre": ["Anime", "Action", "Adventure", "Fantasy", "Game", "Romance"],
+      "year": "2012",
+      "episodes": 25,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Hunter x Hunter",
+      "Image": "/img/hunterxhunter.jpg",
+      "description": "Một cậu bé tìm kiếm cha mình và trở thành một Hunter",
+      "rating": "9.0",
+      "genre": ["Anime", "Action", "Adventure", "Fantasy", "Shounen"],
+      "year": "2011",
+      "episodes": 148,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "One Punch Man",
+      "Image": "/img/onepunchman.jpg",
+      "description": "Một siêu anh hùng có thể đánh bại bất kỳ đối thủ nào chỉ với một cú đấm",
+      "rating": "8.8",
+      "genre": ["Anime", "Action", "Comedy", "Super Power", "Supernatural"],
+      "year": "2015",
+      "episodes": 24,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Mob Psycho 100",
+      "Image": "/img/mobpsycho100.jpg",
+      "description": "Một cậu bé với sức mạnh siêu nhiên cố gắng sống một cuộc sống bình thường",
+      "rating": "8.6",
+      "genre": ["Anime", "Action", "Comedy", "Super Power", "Supernatural"],
+      "year": "2016",
+      "episodes": 25,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Neon Genesis Evangelion",
+      "Image": "/img/neongenesisevangelion.jpg",
+      "description": "Một nhóm thanh thiếu niên lái những cỗ máy khổng lồ để bảo vệ Trái Đất",
+      "rating": "8.5",
+      "genre": ["Anime", "Action", "Drama", "Mecha", "Psychological", "Sci-Fi"],
+      "year": "1995",
+      "episodes": 26,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Solo leveling",
+      "Image": "/img/sololeveling.jpg",
+      "description": "Sung cằm nhọn farm Aura",
+      "rating": "9.6",
+      "genre": ["Anime", "Action", "Adventure", "Fantasy"],
+      "year": "2025",
+      "episodes": 26,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Clannad",
+      "Image": "/img/clannad.jpg",
+      "description": "Câu chuyện tình cảm và cuộc sống học đường",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Romance", "School", "Slice of Life"],
+      "year": "2007",
+      "episodes": 23,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Clannad: After Story",
+      "Image": "/img/clannadafterstory.jpg",
+      "description": "Phần tiếp theo của Clannad, tập trung vào cuộc sống sau khi tốt nghiệp",
+      "rating": "8.9",
+      "genre": ["Anime", "Drama", "Romance", "Slice of Life"],
+      "year": "2008",
+      "episodes": 24,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Anohana: The Flower We Saw That Day",
+      "Image": "/img/anohana.jpg",
+      "description": "Câu chuyện cảm động về tình bạn và sự mất mát",
+      "rating": "8.5",
+      "genre": ["Anime", "Drama", "Slice of Life", "Supernatural"],
+      "year": "2011",
+      "episodes": 11,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Toradora!",
+      "Image": "/img/toradora.jpg",
+      "description": "Câu chuyện tình cảm hài hước giữa hai học sinh trung học",
+      "rating": "8.0",
+      "genre": ["Anime", "Comedy", "Romance", "School", "Slice of Life"],
+      "year": "2008",
+      "episodes": 25,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Angel Beats!",
+      "Image": "/img/angelbeats.jpg",
+      "description": "Câu chuyện về những linh hồn chiến đấu trong thế giới sau khi chết",
+      "rating": "8.1",
+      "genre": ["Anime", "Action", "Comedy", "Drama", "School", "Supernatural"],
+      "year": "2010",
+      "episodes": 13,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4",
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Your Name",
+      "Image": "/img/yourname.jpg",
+      "description": "Câu chuyện tình yêu và hoán đổi thân xác giữa hai người xa lạ",
+      "rating": "8.9",
+      "genre": ["Anime", "Drama", "Romance", "Supernatural"],
+      "year": "2016",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "A Silent Voice",
+      "Image": "/img/asilentvoice.jpg",
+      "description": "Câu chuyện về sự chuộc lỗi và tình bạn",
+      "rating": "8.5",
+      "genre": ["Anime", "Drama", "Romance", "School"],
+      "year": "2016",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Spirited Away",
+      "Image": "/img/spiritedaway.jpg",
+      "description": "Câu chuyện về một cô bé lạc vào thế giới linh hồn",
+      "rating": "8.6",
+      "genre": ["Anime", "Adventure", "Fantasy"],
+      "year": "2001",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "My Neighbor Totoro",
+      "Image": "/img/mynbortotoro.jpg",
+      "description": "Câu chuyện về hai chị em gặp gỡ những sinh vật kỳ diệu",
+      "rating": "8.2",
+      "genre": ["Anime", "Adventure", "Fantasy"],
+      "year": "1988",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Princess Mononoke",
+      "Image": "/img/princessmononoke.jpg",
+      "description": "Câu chuyện về cuộc chiến giữa con người và thiên nhiên",
+      "rating": "8.4",
+      "genre": ["Anime", "Action", "Adventure", "Fantasy"],
+      "year": "1997",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Howl's Moving Castle",
+      "Image": "/img/howlsmovingcastle.jpg",
+      "description": "Câu chuyện về một cô gái bị biến thành bà lão và cuộc phiêu lưu với một phù thủy",
+      "rating": "8.2",
+      "genre": ["Anime", "Adventure", "Fantasy", "Romance"],
+      "year": "2004",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "The Girl Who Leapt Through Time",
+      "Image": "/img/thegirlwholeaptthroughtime.jpg",
+      "description": "Câu chuyện về một cô gái có khả năng du hành thời gian",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Drama", "Romance", "Sci-Fi"],
+      "year": "2006",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Wolf Children",
+      "Image": "/img/wolfchildren.jpg",
+      "description": "Câu chuyện về một người mẹ nuôi hai đứa con nửa người nửa sói",
+      "rating": "8.1",
+      "genre": ["Anime", "Fantasy", "Slice of Life"],
+      "year": "2012",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "The Garden of Words",
+      "Image": "/img/thegardenofwords.jpg",
+      "description": "Câu chuyện tình yêu giữa một học sinh và một người phụ nữ lớn tuổi",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Romance"],
+      "year": "2013",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "5 Centimeters per Second",
+      "Image": "/img/5centimeterspersecond.jpg",
+      "description": "Câu chuyện về tình yêu và khoảng cách",
+      "rating": "7.9",
+      "genre": ["Anime", "Drama", "Romance"],
+      "year": "2007",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Weathering with You",
+      "Image": "/img/weatheringwithyou.jpg",
+      "description": "Câu chuyện về một cậu bé gặp gỡ một cô gái có khả năng điều khiển thời tiết",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Fantasy", "Romance"],
+      "year": "2019",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Kiki's Delivery Service",
+      "Image": "/img/kikisdeliveryservice.jpg",
+      "description": "Câu chuyện về một cô phù thủy trẻ tuổi bắt đầu cuộc sống tự lập",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Comedy", "Fantasy"],
+      "year": "1989",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Castle in the Sky",
+      "Image": "/img/castleinthesky.jpg",
+      "description": "Câu chuyện về cuộc phiêu lưu tìm kiếm một hòn đảo bay",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Fantasy"],
+      "year": "1986",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Grave of the Fireflies",
+      "Image": "/img/graveofthefireflies.jpg",
+      "description": "Câu chuyện cảm động về hai anh em trong thời kỳ chiến tranh",
+      "rating": "8.5",
+      "genre": ["Anime", "Drama", "War"],
+      "year": "1988",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Akira",
+      "Image": "/img/akira.jpg",
+      "description": "Câu chuyện về một nhóm thanh niên trong một thành phố tương lai",
+      "rating": "8.0",
+      "genre": ["Anime", "Action", "Sci-Fi"],
+      "year": "1988",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Perfect Blue",
+      "Image": "/img/perfectblue.jpg",
+      "description": "Câu chuyện về một nữ ca sĩ bị ám ảnh bởi một kẻ theo dõi",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Horror", "Mystery", "Psychological", "Thriller"],
+      "year": "1997",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Paprika",
+      "Image": "/img/paprika.jpg",
+      "description": "Câu chuyện về một nhà tâm lý học sử dụng công nghệ để xâm nhập vào giấc mơ",
+      "rating": "8.0",
+      "genre": ["Anime", "Fantasy", "Mystery", "Sci-Fi", "Thriller"],
+      "year": "2006",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Redline",
+      "Image": "/img/redline.jpg",
+      "description": "Câu chuyện về một cuộc đua xe nguy hiểm nhất trong vũ trụ",
+      "rating": "8.0",
+      "genre": ["Anime", "Action", "Sci-Fi", "Sports"],
+      "year": "2009",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Summer Wars",
+      "Image": "/img/summerwars.jpg",
+      "description": "Câu chuyện về một cậu bé tham gia vào một cuộc chiến trong thế giới ảo",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Comedy", "Sci-Fi"],
+      "year": "2009",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "The Wind Rises",
+      "Image": "/img/thewindrises.jpg",
+      "description": "Câu chuyện về cuộc đời của một nhà thiết kế máy bay",
+      "rating": "8.0",
+      "genre": ["Anime", "Biography", "Drama", "Romance"],
+      "year": "2013",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "The Tale of the Princess Kaguya",
+      "Image": "/img/thetaleoftheprincesskaguya.jpg",
+      "description": "Câu chuyện về một cô gái được tìm thấy trong một cây tre",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Fantasy"],
+      "year": "2013",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "When Marnie Was There",
+      "Image": "/img/whenmarniewasthere.jpg",
+      "description": "Câu chuyện về tình bạn giữa một cô bé và một cô gái bí ẩn",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Mystery"],
+      "year": "2014",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "The Secret World of Arrietty",
+      "Image": "/img/thesecretworldofarrietty.jpg",
+      "description": "Câu chuyện về một cô bé tí hon sống dưới sàn nhà của một gia đình",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Fantasy"],
+      "year": "2010",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "The Cat Returns",
+      "Image": "/img/thecatreturns.jpg",
+      "description": "Câu chuyện về một cô gái được đưa đến vương quốc mèo",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Comedy", "Fantasy"],
+      "year": "2002",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Whisper of the Heart",
+      "Image": "/img/whisperoftheheart.jpg",
+      "description": "Câu chuyện về một cô gái trẻ tìm kiếm mục tiêu trong cuộc sống",
+      "rating": "8.0",
+      "genre": ["Anime", "Drama", "Romance", "Slice of Life"],
+      "year": "1995",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Nausicaä of the Valley of the Wind",
+      "Image": "/img/nausicaaofthevalleyofthewind.jpg",
+      "description": "Câu chuyện về một cô gái chiến đấu để bảo vệ thiên nhiên",
+      "rating": "8.0",
+      "genre": ["Anime", "Adventure", "Fantasy"],
+      "year": "1984",
+      "episodes": 1,
+      "country": "Japan",
+      "ep_list" : [
+        "/film/test.mp4"
+      ]
+    }
+  ]
+}

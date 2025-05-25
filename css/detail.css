@@ -1,0 +1,405 @@
+body{
+    background-color: black;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 950px;
+}
+.main{
+    width: 1100px;
+    background-color: #242E37;
+    margin: 0 auto;
+}
+/*header section*/
+.head{
+    width: 100%;
+    background-color: #242E37;
+    display: flex;
+}
+
+/*logo*/
+.header{
+    width: 1100px;
+    height: 100px;
+    margin: 5px 0 5px 10px;
+}
+
+.header img{
+    width: 100%;
+    height: 100%;
+}
+/*Thanh nav*/
+.nav{
+    width: 80%;
+    height: 100px;
+    margin: 5px 10px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav .search{
+    background-color: rgb(182, 180, 180);
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+    display: flex;
+}
+.search form{
+    width: 100%;
+    height: 100%;
+}
+
+.search input{
+    width: 266px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.search input::placeholder {
+    color: black;
+}
+
+.search input:focus{
+    outline-color: orange;
+}
+
+/*header Navigation*/
+.nav .navbar{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .navbar li{
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.nav .navbar li a:hover{
+    color: orange;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+/*header nav submenu*/
+.nav .navbar li ul.sub-menu{
+    position: absolute;
+    background-color: rgba(179, 174, 174, 0.9); 
+    padding: 10px;
+    list-style: none;
+    width: 400px; 
+    display: none;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 40px;
+    gap: 10px; 
+    text-align: center;
+    opacity: 0;  
+    visibility: hidden;
+    transform: translateY(-10px); 
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+}
+.nav .navbar li ul.sub-menu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%; 
+    white-space: nowrap; /* Không cho chữ xuống dòng */
+    margin-left: auto;
+}
+
+.nav .navbar li ul.sub-menu li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.nav .navbar li:hover>ul.sub-menu{
+    display: grid;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav .navbar li ul.sub-menu li a:hover{
+    color: orange;
+    transition: .3s ease;
+}
+
+.nav .navbar li ul.sub-menu li a{
+    margin-left: 25px;
+}
+
+/*Nút đăng nhập*/
+.nav .login-btn{
+    background: linear-gradient(90deg, #FFC107, #f58505);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none; 
+    align-items: center;
+    transition: .3s ease;
+    width: auto;
+}
+
+.nav .login-btn:hover{
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+}
+
+.nav .login-btn a{
+    text-decoration: none;
+    color: white;
+    width: auto;
+    padding: 10px 9px ; 
+}
+
+/* body section */
+.body{
+    width: 100%;
+    background-color: #242E37;
+}
+.banner{
+    width: 95%;
+    height: 100px;
+    margin: 10px auto;
+    background-color: black;
+    color: white
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/*Content thông tin*/
+.content{
+    width: 95%;
+    margin: 10px auto;
+    padding-top: 5px;
+    background-color: black;
+    color: white
+}
+.content1{
+    height: 450px;
+}
+
+.content #title{
+    width: 98%;
+    height: 60px;
+    background-color: #242E37;
+    color: orange;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.content .main{
+    width: 98%;
+    height: 320px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #242E37;
+}
+
+.content .main .pict{
+    width: 22%;
+    height: 320px;
+    background-color: #242E37;
+}
+
+.pict img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .main .info{
+    width: 76%;
+    height: 320px;
+    background-color: #242E37;
+    color: white;
+    margin-left: 18px;
+}
+.info .info_item{
+    width: 100%;
+    height: 50px;
+    background-color: #242E37;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3.5px solid transparent;
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+}
+.info_item .info_left{
+    width: 20%;
+    height: 50px;
+    background-color: #242E37;
+    color: orange;
+    font-size: medium;
+    font-weight: bolder;
+    align-items:center ;
+}
+.info_item .info_left .test{
+   margin-top: 15px;
+}
+
+/* .info_item .info_right{
+    width: 80%;
+    height: 50px;
+    background-color: #242E37;
+    color: orange;
+    font-size: medium;
+    text-align: center;
+} */
+.info_item .info_right_box{
+    width: 80%;
+    height: 50px;
+    background-color: #242E37;
+    color: orange;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+}
+.info_item .info_right_box .info_right{
+   
+    margin-top: 13px;
+}
+/*infor Thể loại*/
+.info_item .info_right a{
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+.info_item .info_right a:hover{
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+    color: #242E37;
+    transition: 0.3s ease-out;
+}
+
+/*content phần DS tập và Nội dung*/
+.content2{
+    display: flex;
+}
+
+.episodes{
+    width: 22%;
+    height: 300px;
+    background-color: #242E37;
+    margin: 10px;
+}
+/*danh sách tập*/
+.episodes .Title{
+    width: auto;
+    height: 30px;
+    display: flex;
+    background-color: #242E37;
+    color: orange;
+    font-size: medium;
+    border-bottom: solid 1px orange;
+    justify-content: center;
+    align-items: center ;
+}
+
+#episode_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ep_div {
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    flex-basis: 20%;
+    font-size: medium;
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+    border: 1px solid orange;
+    background: transparent;
+    padding: 5px;
+}
+.ep {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: orange;
+}
+
+.ep_div:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #f58505 , #FFC107);
+}
+
+.ep:hover{
+    color: #242E37;
+}
+
+/*Nội dung*/
+.description_container{
+    width: 75%;
+    height: 300px;
+    background-color: #242E37;
+    margin: 10px;
+}
+.description_container .Title{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #242E37;
+    color: orange;
+    font-size: medium;
+    border-bottom: 1px solid orange;
+    background: transparent;
+    justify-content: center;
+    align-items: center ;
+}
+
+.description_container #description{
+    color: orange;
+}
+
+.genre {
+    width: fit-content;
+    border: 1px solid white;
+    margin-right: 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+}
+
+#genres .info_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
